@@ -1,0 +1,902 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0%;
+  font-size: 1.1em;
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  background: rgb(70, 69, 69);
+  z-index: 2;
+}
+
+.content {
+  height: 4800px;
+}
+
+.footerlinkImage {
+  margin-left: 230px;
+  margin-top: 5px;
+  float: left;
+}
+
+.HeaderLinks {
+  color: white;
+  text-decoration: none;
+  margin-top: 13px;
+  float: left;
+  margin-left: 100px;
+}
+
+.HeaderLinks:hover {
+  color: skyblue;
+}
+
+#HeaderSearchfield {
+  margin-left: 90px;
+  float: left;
+  margin-top: 15px;
+  height: 25px;
+  width: 180px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#HeaderSearchfield:focus {
+  border: 2px solid green;
+}
+
+.headerBagImage {
+  float: left;
+  margin-left: 60px;
+  margin-top: 3px;
+}
+
+#Covid19Block {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(81, 83, 200);
+  position: absolute;
+  top: 55px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  z-index: 1;
+}
+
+#CovidLInk {
+  color: white;
+  text-decoration: none;
+}
+
+#CovidLInk:hover {
+  text-decoration: underline;
+}
+
+#ShopOnlineHeadBanner {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(203, 236, 232);
+  position: absolute;
+  float: left;
+  top: 105px;
+  text-align: center;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif sans-serif;
+  padding-top: 15px;
+}
+
+.ShopOnlineLink {
+  text-transform: none;
+  color: rgba(28, 28, 202, 0.781);
+  text-decoration: none;
+}
+
+.ShopOnlineLink:hover {
+  text-decoration: underline;
+}
+
+#FirstBlock {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 165px;
+  background-color: black;
+  float: left;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 45px;
+  font-size: 2.9em;
+}
+#Vinneypuch1 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#LearnMoreLink {
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  float: left;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+#LearnMoreLink:hover {
+  text-decoration: underline;
+}
+
+#LearnMoreLink2 {
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+#LearnMoreLink2:hover {
+  text-decoration: underline;
+}
+
+#VinnyImage {
+  float: left;
+  margin-top: 40px;
+  margin-left: -340px;
+}
+
+#VinnyHeading1 {
+  color: white;
+  float: left;
+  position: absolute;
+  top: 600px;
+  left: 500px;
+}
+
+.VinneyOneP {
+  color: white;
+  float: left;
+  position: absolute;
+  top: 640px;
+  left: 524px;
+}
+
+.VinneyTwoP {
+  color: rgb(116, 166, 231);
+  position: absolute;
+  top: 680px;
+  left: 530px;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.VinneyTwoP:hover {
+  color: rgb(202, 231, 99);
+}
+
+#VinnyHeading2 {
+  color: white;
+  float: left;
+  position: absolute;
+  top: 600px;
+  left: 810px;
+}
+
+#Vinney3P {
+  color: white;
+  position: absolute;
+  top: 640px;
+  left: 835px;
+}
+
+#Vinney4P {
+  color: white;
+  position: absolute;
+  float: left;
+  top: 680px;
+  left: 827px;
+}
+
+.VinneylinkMax {
+  color: rgb(116, 166, 231);
+  float: left;
+  text-decoration: none;
+  position: absolute;
+  top: 725px;
+  left: 864px;
+}
+
+.VinneylinkMax:hover {
+  color: rgb(202, 231, 99);
+}
+
+/*Styles for  the second block*/
+
+#Secondblock {
+  width: 100%;
+  height: 900px;
+  color: white;
+  background-color: white;
+  float: left;
+  position: absolute;
+  top: 965px;
+}
+
+#SecondBlockH1 {
+  color: black;
+  text-align: center;
+}
+
+#iPadImage {
+  float: left;
+  margin-top: 80px;
+  margin-left: -340px;
+  width: 450px;
+  height: 500px;
+}
+
+#Ipad12H {
+  color: black;
+  float: left;
+  margin-top: 620px;
+  margin-left: -500px;
+}
+
+.ipadP {
+  color: rgb(88, 87, 87);
+  float: left;
+  position: absolute;
+  top: 780px;
+  left: 512px;
+}
+
+#IpadP2 {
+  color: rgb(116, 166, 231);
+  float: leff;
+  position: absolute;
+  top: 817px;
+  left: 507px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+#IpadP2:hover {
+  color: rgb(185, 62, 62);
+}
+
+#IpadMiniH {
+  float: left;
+  color: black;
+  margin-top: 565px;
+  margin-left: -160px;
+}
+
+#VinneyMini3P {
+  float: left;
+  color: rgb(88, 87, 87);
+  margin-top: 600px;
+  margin-left: -188px;
+}
+
+#VinneyMini4P {
+  color: rgb(88, 87, 87);
+  float: left;
+  margin-top: 635px;
+  margin-left: -215px;
+}
+
+.IpadMinilink {
+  color: rgb(116, 166, 231);
+  float: left;
+  text-decoration: none;
+  margin-top: 670px;
+  margin-left: -188px;
+}
+
+.IpadMinilink:hover {
+  color: rgb(185, 62, 62);
+}
+
+/*Styles for the 3 block*/
+
+#The3Block {
+  width: 100%;
+  background-color: white;
+  float: left;
+  position: absolute;
+  height: 800px;
+  top: 1865px;
+}
+
+#Photo3 {
+  margin-top: 80px;
+  margin-left: 410px;
+}
+
+#HomepodH1 {
+  color: black;
+  margin-top: 20px;
+  font-size: 2.9em;
+  margin-left: -70px;
+}
+
+#learMoreHomePadLinlk {
+  color: rgb(92, 92, 228);
+  position: absolute;
+  margin-left: 590px;
+  margin-top: 13px;
+  text-decoration: none;
+}
+
+#learMoreHomePadLinlk:hover {
+  text-decoration: underline;
+}
+
+#learMoreHomePadLinlk2 {
+  color: rgb(92, 92, 228);
+  position: absolute;
+  margin-left: 790px;
+  margin-top: 13px;
+  text-decoration: none;
+}
+
+#learMoreHomePadLinlk2:hover {
+  text-decoration: underline;
+}
+
+/*Styles for 4 Block*/
+
+#The4Block {
+  background-color: black;
+  width: 850px;
+  float: left;
+  clear: both;
+  box-sizing: border-box;
+  position: absolute;
+  min-height: 600px;
+  top: 2700px;
+  left: 720px;
+  /*margin-left: 980px;*/
+}
+
+#WatchImg {
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+#WatchP {
+  color: red;
+  margin-left: 385px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+.WatchH3 {
+  color: white;
+  margin-left: 215px;
+  float: left;
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+
+.WatchLink1 {
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  margin-left: -370px;
+  position: absolute;
+  top: 205px;
+}
+
+.WatchLink1:hover {
+  text-decoration: underline;
+}
+
+.WatchLink2 {
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  margin-left: -150px;
+  position: absolute;
+  top: 206px;
+}
+
+.WatchLink2:hover {
+  text-decoration: underline;
+}
+
+#WatchPhoto {
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+}
+/*Styles for block 5*/
+.block5 {
+  background-color: white;
+  position: absolute;
+  width: 720px;
+  min-height: 661px;
+  top: 2700px;
+  float: left;
+}
+
+#IpadAirH3 {
+  color: black;
+  margin-top: 170px;
+  margin-left: 170px;
+  position: relative;
+  float: left;
+}
+.block5 #WatchLink2 {
+  margin-left: -90px;
+}
+
+.IpadAirlink1 {
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  margin-left: -330px;
+  position: absolute;
+  top: 213px;
+}
+
+.IpadAirlink2 {
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  margin-left: -120px;
+  position: absolute;
+  top: 213px;
+}
+
+.IpadAirlink1:hover {
+  text-decoration: underline;
+}
+
+.IpadAirlink2:hover {
+  text-decoration: underline;
+}
+
+#IpadAirImage {
+  float: left;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.block5 #SecondBlockH1 {
+  color: hotpink;
+  float: left;
+  position: absolute;
+  left: 220px;
+  top: 25px;
+}
+
+/*Styles for 6 block*/
+
+#block6 {
+  background-color: white;
+  width: 717px;
+  float: left;
+  clear: both;
+  box-sizing: border-box;
+  position: absolute;
+  min-height: 600px;
+  top: 3365px;
+  /*margin-left: 980px;*/
+}
+
+#AppleOneP {
+  color: rgb(158, 64, 51);
+  font-size: 0.8em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  margin-top: 40px;
+}
+
+#AppleOneIcon {
+  float: left;
+  position: relative;
+  margin-left: 275px;
+  margin-top: 7px;
+}
+
+.AppleOneH1 {
+  color: black;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 280px;
+  font-size: 2em;
+  float: left;
+}
+
+#AppleP2 {
+  text-align: center;
+}
+
+sup {
+  color: black;
+  font-size: 0.6em;
+}
+
+#AppleOneLearnMoreLInk {
+  float: left;
+  position: relative;
+  margin-left: 280px;
+  color: rgb(92, 92, 228);
+  text-decoration: none;
+  margin-top: 7px;
+}
+
+#AppleOneLearnMoreLInk:hover {
+  text-decoration: underline;
+}
+
+.AppleOneImage1 {
+  position: relative;
+  margin-top: 50px;
+  margin-left: -10px;
+}
+
+.AppleOneImage1,
+.AppleOneImage2,
+.AppleOneImage3 {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-top: 110px;
+}
+
+.AppleOneImage2 {
+  position: relative;
+  margin-left: -243px;
+}
+
+.AppleOneImage3 {
+  position: relative;
+  margin-left: -370px;
+}
+
+.AppleOneImage4,
+.AppleOneImage5,
+.AppleOneImage6 {
+  width: 120px;
+  height: 120px;
+  float: left;
+  position: relative;
+  margin-top: 150px;
+}
+
+.AppleOneImage4 {
+  position: relative;
+  margin-left: -115px;
+}
+
+.AppleOneImage5 {
+  position: relative;
+  margin-left: -250px;
+  margin-top: 160px;
+}
+
+.AppleOneImage6 {
+  position: relative;
+  margin-left: -380px;
+}
+/*Styles for 7 block*/
+
+#block7 {
+  background-color: white;
+  width: 717px;
+  float: left;
+  clear: both;
+  box-sizing: border-box;
+  position: absolute;
+  min-height: 600px;
+  top: 3365px;
+  margin-left: 800px;
+}
+
+#block7 #AppleOneIcon {
+  margin-left: 253px;
+  position: relative;
+  margin-top: 3px;
+}
+#block7 .AppleOneH1 {
+  float: left;
+  margin-left: 303px;
+  position: relative;
+  margin-top: -46px;
+}
+
+#block7 #AppleP2 {
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-left: 233px;
+  margin-top: 1px;
+}
+
+#block7 #AppleOneLearnMoreLInk {
+  position: relative;
+  float: left;
+  margin-left: 300px;
+}
+
+#block7 #FitnessPhoto {
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 96px;
+}
+
+#block8 {
+  background-color: white;
+  width: 717px;
+  float: left;
+  clear: both;
+  box-sizing: border-box;
+  position: absolute;
+  min-height: 600px;
+  top: 4000px;
+  /*margin-left: 980px;*/
+}
+
+#block8 #AppleCardImage {
+  float: left;
+  position: relative;
+  margin-left: 117px;
+  margin-top: 20px;
+}
+
+/*Styles for block 9*/
+#block9 {
+  background-color: yellow;
+  width: 780px;
+  float: left;
+  clear: both;
+  box-sizing: border-box;
+  position: absolute;
+  height: 600px;
+  top: 4000px;
+  margin-left: 800px;
+  /*margin-left: 980px;*/
+}
+
+#block9 .AppleOneH1 {
+  margin-top: -550px;
+  margin-left: 350px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+#block9 #AppleOneIcon {
+  margin-top: -551px;
+  margin-left: 300px;
+}
+
+.pHelpsters {
+  margin-top: -480px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  font-family: fantasy;
+}
+
+.Helpsters {
+  width: 370px;
+  height: 90px;
+  background-color: white;
+  position: relative;
+  margin-right: 190px;
+  margin-top: -420px;
+  border: 10px solid yellow;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 2.7em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  float: right;
+}
+
+#block9 a {
+  color: white;
+  position: relative;
+  float: left;
+  margin-top: -270px;
+  margin-left: 130px;
+  text-decoration: none;
+  font-size: 1.9em;
+  text-shadow: 5px 5px 5px blueviolet;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#block9 a:hover {
+  text-decoration: underline;
+}
+/*
+#block9 #ScreenButton {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+
+#PlayButton {
+  position: absolute;
+  float: left;
+  top: 80px;
+  left: 210px;
+  border-radius: 10px;
+  display: block;
+  box-sizing: border-box;
+}
+
+#PlayButton:hover {
+  display: block;
+  visibility: hidden;
+}*/
+
+/*Styles for 10 Block*/
+
+#block10 {
+  background-color: rgb(245, 240, 240);
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin-top: 4620px;
+  float: left;
+  margin-left: 10%;
+  font-size: 0.7em;
+  padding: 10px;
+  color: rgb(85, 83, 83);
+}
+
+/*styles for Footer*/
+
+footer {
+  width: 80%;
+  margin-left: 10%;
+  background-color: green;
+  height: 650px;
+  position: relative;
+  float: left;
+  padding: 10px;
+  background-color: rgb(245, 240, 240);
+  font-size: 0.74em;
+  color: rgb(85, 83, 83);
+}
+
+footer ul {
+  list-style-type: none;
+  margin-top: -25px;
+  margin-left: 10px;
+}
+
+footer li a {
+  color: rgb(85, 83, 83);
+  text-decoration: none;
+
+  line-height: 37px;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+footer #FirstLiHeading {
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+}
+
+#ul2footer {
+  list-style-type: none;
+  margin-top: -351px;
+  margin-left: 200px;
+}
+
+footer #ul3footer {
+  margin-top: 20px;
+  float: left;
+  margin-left: 200px;
+}
+
+footer #ul4ooter {
+  margin-left: 440px;
+  margin-top: -351px;
+}
+
+footer #ul5footer {
+  margin-top: -427px;
+  float: left;
+  margin-left: 320px;
+}
+
+footer #ul6footer {
+  margin-left: 700px;
+  margin-top: -280px;
+}
+
+footer #ul7footer {
+  margin-left: 700px;
+  margin-top: 14px;
+}
+
+footer #ul8footer {
+  margin-left: 700px;
+  margin-top: 14px;
+}
+
+footer #ul9footer {
+  margin-left: 1000px;
+  margin-top: -532px;
+}
+
+footer #ull0footer {
+  margin-left: 1000px;
+  margin-top: 20px;
+}
+
+footer span {
+  position: absolute;
+  margin-top: 60px;
+  padding: 10px;
+  color: rgb(85, 83, 83);
+  font-size: 1.3em;
+}
+
+footer span a {
+  text-decoration: none;
+  color: rgb(92, 92, 228);
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
+
+#HrFooter {
+  position: relative;
+  margin-top: 110px;
+}
+
+footer #bottomSpan {
+  position: absolute;
+  margin-top: 6px;
+}
+footer .bottomSpan2 {
+  margin-left: 400px;
+  margin-top: 5px;
+  color: rgb(85, 83, 83);
+}
+
+footer .bottomSpan2 a {
+  color: rgb(92, 92, 92);
+}
+
+footer #USfooterLink {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 5px;
+}
+
+footer #USfooterLink a {
+  color: rgb(92, 92, 92);
+}
